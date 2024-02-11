@@ -9,7 +9,6 @@ export const ProjectContainer = styled.div`
 
   h2 {
     font-size: 42px;
-    margin-bottom: 80px;
   }
 `
 

@@ -7,8 +7,8 @@ import {
   SecondInput
 } from './styles'
 
-const Contato = () => (
-  <ContactContainer>
+const Contact = () => (
+  <ContactContainer id="contact">
     <h2>Contato</h2>
     <FormContainer
       action="https://formsubmit.co/swolkinerick@gmail.com"
@@ -32,4 +32,4 @@ const Contato = () => (
   </ContactContainer>
 )
 
-export default Contato
+export default Contact

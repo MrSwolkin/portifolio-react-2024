@@ -1,5 +1,7 @@
-import styled from 'styled-components'
+import { Link } from 'react-scroll'
 import { Colors } from '../../styles'
+
+import styled from 'styled-components'
 
 export const HeaderContainer = styled.div`
   position: fixed;
@@ -31,13 +33,13 @@ export const LinkItems = styled.li`
   font-size: 28px;
   }
 `
-export const Links = styled.a`
+export const Links = styled(Link)`
   display: flex;
   text-align: center;
   text-decoration: none;
   color: ${Colors.fontColor};
   margin-left: 18px;
-
+  cursor: pointer;
   &:hover {
     color: ${Colors.primaryBlueColor};
   }

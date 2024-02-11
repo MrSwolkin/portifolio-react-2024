@@ -3,7 +3,6 @@ import Home from '../../components/Home'
 import Skills from '../../components/Skills'
 import Card from '../../models/Card'
 import Project from '../../models/Project'
-import Contato from '../../components/Contato'
 
 import front from '../../assets/images/icons/front.png'
 import html from '../../assets/images/icons/html5.png'
@@ -22,6 +21,7 @@ import Projects from '../../components/Projects'
 import efood from '../../assets/images/EFOOD.png'
 import toDoList from '../../assets/images/to-do-list.png'
 import ebacTalks from '../../assets/images/ebac-talks.png'
+import Contact from '../../components/Contact'
 
 export const cartao: Card[] = [
   {
@@ -82,7 +82,7 @@ const MainPage = () => (
     <About />
     <Skills cardsModels={cartao} />
     <Projects projectModels={projeto} />
-    <Contato />
+    <Contact />
   </>
 )
 export default MainPage

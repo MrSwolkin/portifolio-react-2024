@@ -8,7 +8,7 @@ type Props = {
 }
 
 const Skills = ({ cardsModels }: Props) => (
-  <SkilsContainer>
+  <SkilsContainer id="skills">
     <h2>Minhas Skills</h2>
     <List>
       {cardsModels.map((card) => (

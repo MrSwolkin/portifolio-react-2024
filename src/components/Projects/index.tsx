@@ -9,7 +9,7 @@ type Props = {
 }
 
 const Projects = ({ projectModels }: Props) => (
-  <ProjectContainer>
+  <ProjectContainer id="projects">
     <h2>Últimos Projetos</h2>
     <ProjectList>
       {projectModels.map((project) => (

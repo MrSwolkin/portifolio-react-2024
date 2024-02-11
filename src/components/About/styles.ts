@@ -2,7 +2,11 @@ import styled from 'styled-components'
 import { Colors } from '../../styles'
 
 export const AboutSection = styled.div`
-  margin-bottom: 150px;
+  h2 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 32px;
+  }
 `
 
 export const AboutContainer = styled.div`
@@ -28,11 +32,6 @@ export const AboutImage = styled.div`
 export const AboutContent = styled.div`
   text-align: left;
   line-height: 1.8;
-  h2 {
-    text-align: center;
-    font-size: 48px;
-    margin-bottom: 32px 0;
-  }
 
   h3 {
     font-size: 38px;

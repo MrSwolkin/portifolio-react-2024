@@ -10,7 +10,6 @@ export const CardContainer = styled.div`
   width: 300px;
   height: 400px;
   position: relative;
-  margin: 32px 0;
 `
 
 export const Card = styled.div<CardProps>`

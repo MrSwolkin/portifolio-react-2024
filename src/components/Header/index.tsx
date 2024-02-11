@@ -1,27 +1,71 @@
-import { Link } from 'react-router-dom'
 import { HeaderContainer, Logo, Navbar, LinkItems, Links } from './style'
 
 const Header = () => (
   <>
     <HeaderContainer>
       <div>
-        <Logo href="#">&lt;MrSwolkin/&gt;</Logo>
+        <Logo href="#home">&lt;MrSwolkin/&gt;</Logo>
       </div>
       <Navbar>
         <LinkItems>
-          <Links href="/Home">Home</Links>
+          <Links
+            activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Home
+          </Links>
         </LinkItems>
         <LinkItems>
-          <Links href="/About">About me</Links>
+          <Links
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            about me
+          </Links>
         </LinkItems>
         <LinkItems>
-          <Links href="#">Skills</Links>
+          <Links
+            activeClass="active"
+            to="skills"
+            spy={true}
+            smooth={true}
+            offset={-120}
+            duration={500}
+          >
+            Skills
+          </Links>
         </LinkItems>
         <LinkItems>
-          <Links href="#">Projects</Links>
+          <Links
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={500}
+          >
+            Projects
+          </Links>
         </LinkItems>
         <LinkItems>
-          <Links href="#">Contact</Links>
+          <Links
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-110}
+            duration={500}
+          >
+            Contact
+          </Links>
         </LinkItems>
       </Navbar>
     </HeaderContainer>

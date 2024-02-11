@@ -7,7 +7,7 @@ export const HomeCotainer = styled.div`
   height: 100%;
   display: flex;
   justify-content: space-between;
-  align-itens: center;
+  align-items: center;
   padding: 70px 10% 0;
   margin-bottom: 156px;
 `
